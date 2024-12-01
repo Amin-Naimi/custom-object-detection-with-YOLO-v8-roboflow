@@ -55,13 +55,13 @@ def main():
     )"""
 
     image_path_1 = 0
-    #image_path_1 = "/content/key_2.jpg"
+    image_path_2 = "./1.png"
     #image_path_2 = "/content/souris-usb-havit-ms753-tunisie.jpg"
     
     # Prédictions sur des images
     predict_image(
         model_path=trained_model_path,
-        image_path=image_path_1
+        image_path=image_path_2
     )
 
 if __name__ == "__main__":
