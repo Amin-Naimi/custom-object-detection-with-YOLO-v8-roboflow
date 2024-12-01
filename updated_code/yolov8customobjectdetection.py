@@ -3,6 +3,7 @@ import os
 from IPython.display import display, Image
 from IPython import display
 from roboflow import Roboflow
+import pandas as pandas
 
 def initialize_and_download_data_from_roboflow(api_key, workspace_name, project_name, version_number):
     display.clear_output()
@@ -24,7 +25,7 @@ def validate_model(model_path, data_path):
 def predict_image(model_path, image_path):
     model = YOLO(model_path)
     results = model.predict(source=image_path, save=True, show=True)
-    #results.show()
+    print(f"{results}")
     print("Prédiction terminée pour :", image_path)
 
 def main():
