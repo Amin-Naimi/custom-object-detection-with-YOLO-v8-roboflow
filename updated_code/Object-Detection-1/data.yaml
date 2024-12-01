@@ -1,0 +1,12 @@
+names:
+- clavier
+- souris
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: object-detection-plm7l
+  url: https://universe.roboflow.com/workspace-il5zj/object-detection-plm7l/dataset/1
+  version: 1
+  workspace: workspace-il5zj
+train: C:/Users/Mohamed/Desktop/Home/work/ia/computer_vision/projet yolo/updated_code/Object-Detection-1/train/images
+val: C:/Users/Mohamed/Desktop/Home/work/ia/computer_vision/projet yolo/updated_code/Object-Detection-1/valid/images
